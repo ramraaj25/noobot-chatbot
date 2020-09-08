@@ -9,10 +9,10 @@ It also asks for the users cutsom reponse/feedback when it does'nt understand so
 
 ## Usage:
 
--- pip install requirements.txt
--- run bot.py
--- to train the bot using custom list of statements replace the "# List of statements here" with the list of your personalized statements in train.py and run train.py.
--- enter 'bye' to exit.
+-- pip install requirements.txt<br />
+-- run bot.py<br />
+-- to train the bot using custom list of statements replace the "# List of statements here" with the list of your personalized statements in train.py and run train.py.<br />
+-- enter 'bye' to exit.<br /><br />
 
 
 Corpus used for training - "chatterbot.corpus.english"
