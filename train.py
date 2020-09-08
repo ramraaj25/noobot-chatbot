@@ -44,15 +44,13 @@ bot = ChatBot(
     database_uri="sqlite:///noobot.db"
 )
 
-
+list_trainer = ListTrainer(bot)
 if __name__ == "__main__":
 
     # trainer = ChatterBotCorpusTrainer(bot)
 
     # trainer.train('chatterbot.corpus.english')
     # print('training complete')
-
-    list_trainer = ListTrainer(bot)
 
     list_trainer.train([
         # List of statements here
